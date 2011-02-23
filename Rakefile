@@ -3,7 +3,7 @@ require 'rubygems'
 require 'rake'
 require 'echoe'
 
-Echoe.new('weshop_api', '0.1.0') do |p|
+Echoe.new('weshop_api', '0.1.2') do |p|
   p.description    = "Helpler objects for WeShop internal APIs"
   p.url            = "http://github.com/weshop/weshop_api"
   p.author         = "Katzmopolotan"

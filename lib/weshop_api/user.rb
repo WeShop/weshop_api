@@ -1,8 +1,5 @@
 module WeshopAPI
   class User < ActiveResource::Base
-    self.site = "http://localhost:3000/admin"
-    self.user = "weshopnetwork"
-    self.password = "cosmosb8ta"
 
     def authentications
       @authentications ||=[]
@@ -15,6 +12,5 @@ module WeshopAPI
       old_save
     end
   end
-end
 
-#UserAPI::User.create(:email=>"none@none.com")
+end
