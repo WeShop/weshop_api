@@ -2,6 +2,12 @@
 
 The Weshop API gem allows to access the admin section of Weshop
 
+== Install
+
+Add the following to Gemfile
+
+   gem 'weshop_api', :git => 'git@github.com:WeShop/weshop_api.git'
+
 == Usage
 
 === Requirements
