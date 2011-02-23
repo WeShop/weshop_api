@@ -1,5 +1,5 @@
 module WeshopAPI
-  class User < ActiveResource::Base
+  class User < Base
 
     def authentications
       @authentications ||=[]

@@ -13,7 +13,7 @@ ShopifyAPI uses ActiveResource to communicate with the REST web service. ActiveR
 
 1. You will need to supply two parameters to the Session class before you instantiate it:
 
-    WeshopAPI::User.site = "#{WESHOP_PROTOCOL}://#{WESHOP_USER}:#{WESHOP_PASSWORD}@#{WESHOP_HOST}/admin"
+    WeshopAPI::Base.site = "#{WESHOP_PROTOCOL}://#{WESHOP_USER}:#{WESHOP_PASSWORD}@#{WESHOP_HOST}/admin"
 
 2. To create a new user
 

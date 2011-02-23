@@ -1,4 +1,4 @@
 module WeshopAPI
-  class Authentication < ActiveResource::Base
+  class Authentication < Base
   end
 end
