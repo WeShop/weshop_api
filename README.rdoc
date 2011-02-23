@@ -1,1 +1,21 @@
-test
+= Shopify API
+
+The Weshop API gem allows to access the admin section of Weshop
+
+== Usage
+
+=== Requirements
+
+
+=== Getting Started
+
+ShopifyAPI uses ActiveResource to communicate with the REST web service. ActiveResource has to be configured with a fully authorized URL of a particular store first. To obtain that URL you can follow these steps:
+
+1. You will need to supply two parameters to the Session class before you instantiate it:
+
+    WeshopAPI::User.site = "#{WESHOP_PROTOCOL}://#{WESHOP_USER}:#{WESHOP_PASSWORD}@#{WESHOP_HOST}/admin"
+
+2. To create a new user
+
+    WeshopAPI::User.create(:email=>"some@user.com", :password=>"newpassword")
+
