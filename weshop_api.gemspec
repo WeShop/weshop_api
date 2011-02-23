@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.version = "0.1.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Katzmopolotan"]
+  s.authors = ["Katzmopolitan"]
   s.cert_chain = ["/Users/ilyakatz/.ssh/gem-public_cert.pem"]
   s.date = %q{2011-02-23}
   s.description = %q{Helpler objects for WeShop internal APIs}
