@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.description = %q{Helpler objects for WeShop internal APIs}
   s.email = %q{dev@weshopnetwork.com}
   s.extra_rdoc_files = ["README.rdoc", "lib/weshop_api/authentication.rb", "lib/weshop_api/user.rb", "lib/weshop_api.rb"]
-  s.files = ["README.rdoc", "Rakefile", "lib/weshop_api/authentication.rb", "lib/weshop_api/user.rb", "lib/weshop_api.rb", "Manifest", "weshop_api.gemspec"]
+  s.files = ["README.rdoc", "Rakefile", "lib/weshop_api/base.rb", "lib/weshop_api/authentication.rb", "lib/weshop_api/user.rb", "lib/weshop_api.rb", "Manifest", "weshop_api.gemspec"]
   s.homepage = %q{http://github.com/weshop/weshop_api}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Weshop_api", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
