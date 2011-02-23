@@ -1,4 +1,4 @@
-= Shopify API
+= Weshop API
 
 The Weshop API gem allows to access the admin section of Weshop
 
